@@ -1,4 +1,4 @@
-import Navbar from "./Navbar";
+import MapBox from "./Map";
 
 const Home = () => {
   return (
@@ -10,7 +10,7 @@ const Home = () => {
       <h3>Got an image? Upload and search below.</h3>
       <input type="file"></input>
       <button>Search Now</button>
-      <img src="/src/images/map.png"></img>
+      <MapBox />
     </div>
   );
 };

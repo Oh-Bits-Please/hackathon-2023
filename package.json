@@ -9,8 +9,10 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "mapbox-gl": "^2.12.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-map-gl": "^7.0.21",
     "react-router-dom": "^6.8.0"
   },
   "devDependencies": {
