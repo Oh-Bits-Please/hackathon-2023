@@ -1,4 +1,4 @@
-import MapBox from "./Map";
+import MapBox from "../../components/Map";
 
 const Home = () => {
   return (
@@ -6,8 +6,8 @@ const Home = () => {
       <h1 className="action-call">
         Find alternative prices in other stores near you!
       </h1>
-      <img src="/src/images/shopper.png"></img>
-      <h3>Got an image? Upload and search below.</h3>
+      <img src="/src/images/shopper.png" className="w-50 h-50"></img>
+      <h3 className="font-sans">Got an image? Upload and search below.</h3>
       <input type="file"></input>
       <button>Search Now</button>
       <MapBox />
