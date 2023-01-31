@@ -2,24 +2,28 @@ import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
-    <div className="navbar sticky">
-      <ul className="list-none">
-        <li>
+    <nav className="w-full">
+      <div className="flex flex-row">
+        <div>
           <Link to="/">
             <img
               src="/src/images/cart.png"
               alt="cart image with words find it"
-              className="w-50 h-50"
-            ></img>
+              className="h-1 w-1"
+            />
           </Link>
-        </li>
-        <li>
+        </div>
+        <div>
           <Link to="/profile">
-            <img src="/src/images/avatar.png" alt="profile image"></img>
+            <img
+              src="/src/images/avatar.png"
+              alt="profile image"
+              className="h-1 w-1"
+            />
           </Link>
-        </li>
-      </ul>
-    </div>
+        </div>
+      </div>
+    </nav>
   );
 };
 export default Navbar;
