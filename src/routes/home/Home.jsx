@@ -10,7 +10,7 @@ const Home = () => {
       <h3 className="font-sans">Got an image? Upload and search below.</h3>
       <input type="file"></input>
       <button>Search Now</button>
-      {/* <MapBox /> */}
+      <MapBox />
     </div>
   );
 };
