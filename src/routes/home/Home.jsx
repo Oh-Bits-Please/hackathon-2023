@@ -1,4 +1,4 @@
-import MapBox from "../../components/Map";
+import MapBox from "../../components/Map/Map";
 
 const Home = () => {
   return (
