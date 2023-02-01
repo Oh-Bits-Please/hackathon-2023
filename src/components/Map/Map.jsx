@@ -11,12 +11,17 @@ const MapBox = () => {
     pitch: 50,
   });
 
-  // const [selectedStore, setSelectedStore] = useState(null);
+  const [selectedStore, setSelectedStore] = useState(storeData.default[0]);
+  const [showPopUp, setShowPopup] = useState(true);
 
   return (
     <div>
       <Map
         {...viewState}
+        onClick={(e) => {
+          e.preventDefault();
+          console.log("clicked");
+        }}
         onMove={(evt) => setViewState(evt.viewState)}
         style={{ width: 400, height: 400 }}
         mapStyle="mapbox://styles/mapbox/streets-v12"
@@ -34,7 +39,7 @@ const MapBox = () => {
                   onClick={(e) => {
                     e.preventDefault();
                     setSelectedStore(store);
-                    // console.log(selectedStore);
+                    setShowPopup(true);
                   }}
                 >
                   <img
@@ -47,9 +52,17 @@ const MapBox = () => {
             </div>
           );
         })}
-        {/* <Popup latitude={47} longitude={-122}>
-          <div>{selectedStore?.name || "test"}</div>
-        </Popup> */}
+
+        {selectedStore && showPopUp ? (
+          <Popup
+            latitude={selectedStore.lat}
+            longitude={selectedStore.lng}
+            closeOnClick={false}
+            onClose={() => setShowPopup(false)}
+          >
+            <div>{selectedStore.name}</div>
+          </Popup>
+        ) : null}
 
         <GeolocateControl />
       </Map>
