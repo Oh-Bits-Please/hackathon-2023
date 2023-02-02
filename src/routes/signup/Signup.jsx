@@ -3,24 +3,41 @@ import React from 'react'
 function Signup() {
   return (
     <>
-      <h3>Signup</h3>
-      <form>
-      <label>
-        <p>Email:</p>
-        <input type="text" />
-      </label>
-      <label>
-        <p>Password:</p>
-        <input type="password" />
-      </label>
-      <label>
-        <p>Retype password:</p>
-        <input type="password" />
-      </label>
-      <div>
-        <button type="submit">Signup now</button>
+      <div className="container w-screen text-center">
+        <h3 className="font-semibold text-xl m-4">Signup</h3>
+        <form className="">
+          <p className="font-semibold">Email:</p>
+          <input
+            label="Email"
+            type="email"
+            name="email"
+            required
+            className="border border-gray-300 rounded-md w-80 h-8"
+          />
+          <p className="font-semibold">Password:</p>
+          <input
+            label="Password"
+            type="password"
+            name="password"
+            className="border border-gray-300 rounded-md w-80 h-8"
+          />
+          <p className="font-semibold">Retype Password:</p>
+          <input
+            label="Password"
+            type="password"
+            name="password"
+            className="border border-gray-300 rounded-md w-80 h-8"
+          />
+          <div className="m-4">
+            <button
+              type="submit"
+              className="bg-darkBlue text-white font-bold w-72 h-12 text-lg rounded-lg"
+            >
+              Signup now
+            </button>
+          </div>
+        </form>
       </div>
-    </form>
     </>
   )
 }
