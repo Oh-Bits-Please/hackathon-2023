@@ -1,0 +1,122 @@
+[
+  {
+    "name": "Albany Store                    ",
+    "address": "1425 Central Ave                  ",
+    "city": "Albany             ",
+    "state": "NEW YORK",
+    "zip": "12205      ",
+    "country": "UNITED STATES OF AMERICA",
+    "phone": "(518) 621-5300 ",
+    "lat": 42.7089555,
+    "lng": -73.81888489,
+    "url": "https://www.wholefoodsmarket.com/stores/albany              "
+  },
+  {
+    "name": "Arabella Station Store          ",
+    "address": "5600 Magazine St                  ",
+    "city": "New Orleans        ",
+    "state": "LOUISIANA",
+    "zip": "70115      ",
+    "country": "UNITED STATES OF AMERICA",
+    "phone": "(504) 899-9119 ",
+    "lat": 29.921124,
+    "lng": -90.117495,
+    "url": "https://www.wholefoodsmarket.com/stores/arabellastation     "
+  },
+  {
+    "name": "Arbor Trails Store              ",
+    "address": "4301 W William Cannon             ",
+    "city": "Austin             ",
+    "state": "TEXAS",
+    "zip": "78749      ",
+    "country": "UNITED STATES OF AMERICA",
+    "phone": "(512) 358-2460 ",
+    "lat": 30.220346,
+    "lng": -97.841947,
+    "url": "https://www.wholefoodsmarket.com/stores/arbortrails         "
+  },
+  {
+    "name": "Academy Store                   ",
+    "address": "5815 Wyoming Blvd NE              ",
+    "city": "Albuquerque        ",
+    "state": "NEW MEXICO",
+    "zip": "87109      ",
+    "country": "UNITED STATES OF AMERICA",
+    "phone": "(505) 856-0474 ",
+    "lat": 35.146488,
+    "lng": -106.556026,
+    "url": "https://www.wholefoodsmarket.com/stores/albuquerque         "
+  },
+  {
+    "name": "Addison Store                   ",
+    "address": "5100 Belt Line Rd, Ste 1012       ",
+    "city": "Addison            ",
+    "state": "TEXAS",
+    "zip": "75254      ",
+    "country": "UNITED STATES OF AMERICA",
+    "phone": "(214) 854-3334 ",
+    "lat": 32.953182,
+    "lng": -96.821423,
+    "url": "https://www.wholefoodsmarket.com/stores/addison             "
+  },
+  {
+    "name": "Charlotte Store                 ",
+    "address": "6610 Fairview Rd                  ",
+    "city": "Charlotte          ",
+    "state": "NORTH CAROLINA",
+    "zip": "28210      ",
+    "country": "UNITED STATES OF AMERICA",
+    "phone": "(980) 213-2400 ",
+    "lat": 35.147279,
+    "lng": -80.830176,
+    "url": "https://www.wholefoodsmarket.com/stores/charlotte           "
+  },
+  {
+    "name": "Ann Arbor Store                 ",
+    "address": "3135 Washtenaw Ave                ",
+    "city": "Ann Arbor          ",
+    "state": "MICHIGAN",
+    "zip": "48104      ",
+    "country": "UNITED STATES OF AMERICA",
+    "phone": "(734) 975-4500 ",
+    "lat": 42.258059,
+    "lng": -83.698198,
+    "url": "https://www.wholefoodsmarket.com/stores/annarbor            "
+  },
+  {
+    "name": "Sacramento Store                ",
+    "address": "4315 Arden Way                    ",
+    "city": "Sacramento         ",
+    "state": "CALIFORNIA",
+    "zip": "95864      ",
+    "country": "UNITED STATES OF AMERICA",
+    "phone": "(916) 488-2800 ",
+    "lat": 38.596639,
+    "lng": -121.363794,
+    "url": "https://www.wholefoodsmarket.com/stores/sacramento          "
+  },
+  {
+    "name": "Arlington VA Store              ",
+    "address": "2700 Wilson Blvd                  ",
+    "city": "Arlington          ",
+    "state": "VIRGINIA",
+    "zip": "22201      ",
+    "country": "UNITED STATES OF AMERICA",
+    "phone": "(703) 527-6596 ",
+    "lat": 38.889049,
+    "lng": -77.091065,
+    "url": "https://www.wholefoodsmarket.com/stores/arlington-va        "
+  },
+  {
+    "name": "Arroyo Store                    ",
+    "address": "465 S Arroyo Pkwy                 ",
+    "city": "Pasadena           ",
+    "state": "CALIFORNIA",
+    "zip": "91105      ",
+    "country": "UNITED STATES OF AMERICA",
+    "phone": "(626) 204-2266 ",
+    "lat": 34.1381,
+    "lng": -118.14776,
+    "url": "https://www.wholefoodsmarket.com/stores/arroyo              "
+  }
+]
