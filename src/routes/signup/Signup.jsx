@@ -24,9 +24,9 @@ function Signup() {
                   <input type="confirm-password" name="confirm-password" id="confirm-password" placeholder="••••••••" className="bg-gray-50 border border-lightGray text-gray-900 sm:text-sm rounded-lg focus:border-darkRed block w-full p-2.5 bg-gray-700  placeholder-gray-400 focus:ring-darkRed" required="" />
                 </div>
 
-                <button type="submit" className="w-full text-white bg-darkRed hover:bg-primary-700  focus:outline-none focus:ring-primary-300 font-semibold rounded-lg text-sm px-5 py-2.5 text-center hover:bg-orangeRed ">Sign up</button>
+                <button type="submit" className="w-full text-white bg-darkRed focus:outline-none focus:ring-primary-300 font-semibold rounded-lg text-sm px-5 py-2.5 text-center hover:bg-orangeRed ">Sign up</button>
                 <p className="text-sm font-light text-gray-500">
-                  Already have an account? <a href="#" className="font-semibold text-darkRed hover:underline">Login here</a>
+                  Already have an account? <a href="/login" className="font-semibold text-darkRed hover:underline">Login here</a>
                 </p>
               </form>
             </div>
