@@ -53,7 +53,7 @@ function Login() {
                       <input id="remember" aria-describedby="remember" type="checkbox" className="w-4 h-4 border border-lightGray rounded bg-gray-50 focus:ring-3  dark:bg-gray-700 border-gray-600 focus:ring-darkRed ring-offset-gray-800" required="" />
                     </div>
                     <div className="ml-3 text-sm">
-                      <label for="remember" className="text-gray-500 dark:text-gray-300">Remember me</label>
+                      <label htmlFor="remember" className="text-gray-500 dark:text-gray-300">Remember me</label>
                     </div>
                   </div>
                   <a href="#" className="text-sm font-semibold text-darkRed hover:underline dark:text-primary-500">Forgot password?</a>
