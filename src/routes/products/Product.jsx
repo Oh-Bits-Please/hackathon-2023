@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 const Product = ({ name, price, discount, img }) => {
     return (
@@ -13,10 +13,8 @@ const Product = ({ name, price, discount, img }) => {
                         <p className='text-sm text-white font-semibold'>{`${discount} off`}</p>
                     </div>
                 </div>
-
                 <p>{price}</p>
-
-
+                <p>Location: </p>
             </div>
 
         </div>

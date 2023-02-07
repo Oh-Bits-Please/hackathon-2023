@@ -3,6 +3,7 @@ import Product from './Product';
 import RiceImg from "../../../src/assets/img/rice.jpeg";
 import KetchupImg from "../../../src/assets/img/ketchup.png";
 import PastaImg from "../../../src/assets/img/pasta.png"
+import MapBox from '../../components/Map/Map';
 
 const products = [
     {
@@ -25,6 +26,39 @@ const products = [
     }
 ]
 
+const ketchup = [
+    {
+        name: "Ketchup",
+        price: "8 USD",
+        discount: "5%",
+        img: KetchupImg
+    },
+    {
+        name: "Ketchup",
+        price: "8.10 USD",
+        discount: "5%",
+        img: KetchupImg
+    },
+    {
+        name: "Ketchup",
+        price: "9 USD",
+        discount: "5%",
+        img: KetchupImg
+    },
+    {
+        name: "Ketchup",
+        price: "9 USD",
+        discount: "5%",
+        img: KetchupImg
+    },
+    {
+        name: "Ketchup",
+        price: "10 USD",
+        discount: "5%",
+        img: KetchupImg
+    },
+]
+
 const ProductList = () => {
     return (
         <div className='m-4'>
@@ -41,7 +75,7 @@ const ProductList = () => {
                     <span className="sr-only">Search</span>
                 </button>
             </form>
-            {products.map(product => {
+            {ketchup.map(product => {
                 return (
                     <Product name={product.name} price={product.price} discount={product.discount} img={product.img} />
                 )
