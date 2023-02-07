@@ -1,6 +1,7 @@
 import React from 'react';
 
-const Product = ({ name, price, discount, img }) => {
+const Product = ({ name, price, discount, img, location }) => {
+    console.log(location)
     return (
         <div className="rounded-md flex border border-darkRed my-4 p-4 cursor-pointer">
             <div className='border border-lightGray rounded-lg'>
@@ -14,7 +15,7 @@ const Product = ({ name, price, discount, img }) => {
                     </div>
                 </div>
                 <p>{price}</p>
-                <p>Location: </p>
+                <p>Location: {location ? location : "Not found"}</p>
             </div>
 
         </div>
