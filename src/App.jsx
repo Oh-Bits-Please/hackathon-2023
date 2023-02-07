@@ -6,6 +6,7 @@ import Login from './routes/login/Login';
 import Signup from './routes/signup/Signup';
 import "mapbox-gl/dist/mapbox-gl.css";
 import ProductList from './routes/products/ProductList';
+import Profile from './routes/profile/profile.component';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
             <Route path="/login" element={<Login />} />
             <Route path="/signup" element={<Signup />} />
             <Route path="/products" element={<ProductList />} />
+            <Route path="/profile" element={<Profile />} />
           </Route>
         </Routes>
       </BrowserRouter>
