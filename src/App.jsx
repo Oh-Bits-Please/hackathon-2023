@@ -7,6 +7,7 @@ import Signup from './routes/signup/Signup';
 import "mapbox-gl/dist/mapbox-gl.css";
 import ProductList from './routes/products/ProductList';
 import Profile from './routes/profile/profile.component';
+import ProductDetails from "./routes/product-details/product-details.component";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
             <Route path="/signup" element={<Signup />} />
             <Route path="/products" element={<ProductList />} />
             <Route path="/profile" element={<Profile />} />
+            <Route path="/product-details" element={<ProductDetails />} />
           </Route>
         </Routes>
       </BrowserRouter>

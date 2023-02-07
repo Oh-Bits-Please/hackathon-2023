@@ -4,6 +4,7 @@ import RiceImg from "../../../src/assets/img/rice.jpeg";
 import KetchupImg from "../../../src/assets/img/ketchup.png";
 import PastaImg from "../../../src/assets/img/pasta.png";
 import MapBox from "../../components/Map/Map";
+import { Link } from "react-router-dom";
 
 const products = [
   {
@@ -68,8 +69,8 @@ const ProductList = () => {
   const [search, setSearch] = useState(false);
 
   const searching = () => {
-    setSearch(state => !state);
-  }
+    setSearch((state) => !state);
+  };
 
   return (
     <div className="m-4">
@@ -122,21 +123,25 @@ const ProductList = () => {
           <span className="sr-only">Search</span>
         </button>
       </form>
-      {search ? 
+      {search ? (
         ketchup.map((product) => {
-        return (
-          <Product
-            name={product.name}
-            price={product.price}
-            discount={product.discount}
-            img={product.img}
-            location={product.location}
-          />
-        );
-      })
-      :
-      <div className="p-2 text-left font-bold">No products found. Search above.</div>
-        }
+          return (
+            <Link to="/product-details">
+              <Product
+                name={product.name}
+                price={product.price}
+                discount={product.discount}
+                img={product.img}
+                location={product.location}
+              />
+            </Link>
+          );
+        })
+      ) : (
+        <div className="p-2 text-left font-bold">
+          No products found. Search above.
+        </div>
+      )}
     </div>
   );
 };
