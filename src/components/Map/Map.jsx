@@ -6,8 +6,8 @@ import { useState } from "react";
 const MapBox = ({ product }) => {
   console.log(product.location);
   const [viewState, setViewState] = useState({
-    longitude: -122,
-    latitude: 47,
+    longitude: product.lng,
+    latitude: product.lat,
     zoom: 10,
     pitch: 50,
   });
