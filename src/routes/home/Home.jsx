@@ -26,9 +26,9 @@ const Home = () => {
           </Link>
         </div>
       </div>
-      <div className="flex justify-center p-4">
+      {/* <div className="flex justify-center p-4">
         <MapBox />
-      </div>
+      </div> */}
     </div>
   );
 };

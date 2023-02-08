@@ -1,9 +1,10 @@
 import * as React from "react";
 import Map, { Marker, GeolocateControl, Popup } from "react-map-gl";
 import { useState } from "react";
-import * as storeData from "/src/data/wholefoods.json";
+// import * as storeData from "/src/data/wholefoods.json";
 
-const MapBox = () => {
+const MapBox = ({ product }) => {
+  console.log(product.location);
   const [viewState, setViewState] = useState({
     longitude: -122,
     latitude: 47,
@@ -11,7 +12,7 @@ const MapBox = () => {
     pitch: 50,
   });
 
-  const [selectedStore, setSelectedStore] = useState(storeData.default[0]);
+  const [selectedStore, setSelectedStore] = useState(product);
   const [showPopUp, setShowPopup] = useState(true);
 
   return (
@@ -27,31 +28,23 @@ const MapBox = () => {
         mapStyle="mapbox://styles/mapbox/streets-v12"
         mapboxAccessToken={import.meta.env.VITE_TOKEN}
       >
-        {storeData.default.map((store) => {
-          return (
-            <div>
-              <Marker
-                key={store.zip}
-                longitude={store.lng}
-                latitude={store.lat}
-              >
-                <button
-                  onClick={(e) => {
-                    e.preventDefault();
-                    setSelectedStore(store);
-                    setShowPopup(true);
-                  }}
-                >
-                  <img
-                    src="/src/images/map-marker.png"
-                    width={50}
-                    height={50}
-                  />
-                </button>
-              </Marker>
-            </div>
-          );
-        })}
+        <div>
+          <Marker
+            key={product.zip}
+            longitude={product.lng}
+            latitude={product.lat}
+          >
+            <button
+              onClick={(e) => {
+                e.preventDefault();
+                setSelectedStore(product);
+                setShowPopup(true);
+              }}
+            >
+              <img src="/src/images/map-marker.png" width={50} height={50} />
+            </button>
+          </Marker>
+        </div>
 
         {selectedStore && showPopUp ? (
           <Popup
@@ -60,10 +53,9 @@ const MapBox = () => {
             closeOnClick={false}
             onClose={() => setShowPopup(false)}
           >
-            <div>{selectedStore.name}</div>
+            <div>{selectedStore.location}</div>
           </Popup>
         ) : null}
-
         <GeolocateControl />
       </Map>
     </div>
