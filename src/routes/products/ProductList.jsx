@@ -27,41 +27,61 @@ const products = [
   },
 ];
 
-const ketchup = [
+export const ketchup = [
   {
+    id: 1,
     name: "Ketchup",
     price: "8 USD",
     discount: "5%",
     img: KetchupImg,
     location: "Walmart",
+    lat: 42.7089555,
+    lng: -73.81888489,
+    zip: "12205",
   },
   {
+    id: 2,
     name: "Ketchup",
     price: "8.10 USD",
     discount: "5%",
     img: KetchupImg,
     location: "Target",
+    lat: 29.921124,
+    lng: -90.117495,
+    zip: "70115",
   },
   {
+    id: 3,
     name: "Ketchup",
     price: "9 USD",
     discount: "5%",
     img: KetchupImg,
     location: "Safeway",
+    lat: 30.220346,
+    lng: -97.841947,
+    zip: "78749",
   },
   {
+    id: 4,
     name: "Ketchup",
     price: "9 USD",
     discount: "5%",
     img: KetchupImg,
     location: "Whole Foods",
+    lat: 35.146488,
+    lng: -106.556026,
+    zip: "87109",
   },
   {
+    id: 5,
     name: "Ketchup",
     price: "10 USD",
     discount: "5%",
     img: KetchupImg,
     location: "Walgreens",
+    lat: 32.953182,
+    lng: -96.821423,
+    zip: "75254",
   },
 ];
 
@@ -126,13 +146,17 @@ const ProductList = () => {
       {search ? (
         ketchup.map((product) => {
           return (
-            <Link to="/product-details">
+            <Link to={`/product-details/${product.id}`}>
               <Product
+                id={product.id}
                 name={product.name}
                 price={product.price}
                 discount={product.discount}
                 img={product.img}
                 location={product.location}
+                lat={product.lat}
+                lng={product.lng}
+                zip={product.zip}
               />
             </Link>
           );
@@ -142,6 +166,9 @@ const ProductList = () => {
           No products found. Search above.
         </div>
       )}
+      {/* <div>
+        <MapBox />
+      </div> */}
     </div>
   );
 };
