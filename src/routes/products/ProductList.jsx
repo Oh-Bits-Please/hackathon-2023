@@ -5,6 +5,7 @@ import KetchupImg from "../../../src/assets/img/ketchup.png";
 import PastaImg from "../../../src/assets/img/pasta.png";
 import MapBox from "../../components/Map/Map";
 import { Link } from "react-router-dom";
+import Location from "../../components/Location";
 
 const products = [
   {
@@ -140,6 +141,7 @@ const ProductList = () => {
       ) : (
         <div className="p-2 text-left font-bold">
           No products found. Search above.
+          <Location />
         </div>
       )}
     </div>
