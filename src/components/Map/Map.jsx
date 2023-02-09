@@ -24,7 +24,7 @@ const MapBox = ({ product }) => {
           console.log("clicked");
         }}
         onMove={(evt) => setViewState(evt.viewState)}
-        style={{ width: 400, height: 400 }}
+        style={{ width: 900, height: 500 }}
         mapStyle="mapbox://styles/mapbox/streets-v12"
         mapboxAccessToken={import.meta.env.VITE_TOKEN}
       >
@@ -41,7 +41,11 @@ const MapBox = ({ product }) => {
                 setShowPopup(true);
               }}
             >
-              <img src="/src/assets/img/map-marker.png" width={50} height={50} />
+              <img
+                src="/src/assets/img/map-marker.png"
+                width={50}
+                height={50}
+              />
             </button>
           </Marker>
         </div>

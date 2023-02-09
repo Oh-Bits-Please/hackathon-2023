@@ -14,7 +14,7 @@ function ProductDetails() {
       <h1 className="w-96 text-2xl font-bold text-center p-4">
         Product Details
       </h1>
-      <div className="rounded-md flex border border-darkRed my-4 p-4 cursor-pointer">
+      <div className="rounded-md flex border border-darkRed my-4 mx-8 p-4 cursor-pointer">
         <div className="border border-lightGray rounded-lg">
           <img className="w-28 h-auto p-2" src={product.img} alt="" />
         </div>
