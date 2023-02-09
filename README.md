@@ -46,10 +46,11 @@ Signup and Login Pages:
 # <a name="about"></a>Learn More About the Developers
 
 Kailey Kotynski
-**GitHub:** https://github.com/kotynskm
-**LinkedIn:** https://www.linkedin.com/in/kkotynski
-**Medium:** https://medium.com/@k.kotynski
-**Portfolio:** https://kaileykotynski.netlify.app
+
+- **GitHub:** https://github.com/kotynskm
+- **LinkedIn:** https://www.linkedin.com/in/kkotynski
+- **Medium:** https://medium.com/@k.kotynski
+- **Portfolio:** https://kaileykotynski.netlify.app
 
 Vanessa Vun
 Axi
