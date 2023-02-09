@@ -2,10 +2,11 @@ import MapBox from "../../components/Map/Map";
 import { Link } from "react-router-dom";
 
 const Home = () => {
+
   return (
     <div className="flex flex-col justify-center">
       <div className="flex justify-center">
-        <h1 className="w-96 text-2xl font-bold text-center p-4">
+        <h1 className="w-96 text-2xl font-bold text-center p-4 md:text-4xl md:w-3/6 lg:w-2/5">
           Find alternative prices in other stores near you!
         </h1>
       </div>

@@ -1,16 +1,24 @@
 import { Link } from "react-router-dom";
 import { Outlet } from "react-router-dom";
+import { useEffect, useRef, useState } from "react";
 import Hamburger from "hamburger-react";
 import Menu from "../Menu/Menu";
-import { useState } from "react";
+import MenuLinks from "../MenuLinks/MenuLinks.component";
 
 const Navbar = () => {
   const [isOpen, setOpen] = useState(false);
+  const [size, setSize] = useState(window.innerWidth);
+
+  useEffect(() => {
+    setSize(window.innerWidth);
+  }, []);
+
+  console.log(size);
 
   return (
     <>
-      <nav className="navbar">
-        <div className="container flex flex-row justify-between">
+      <nav className="navbar w-screen">
+        <div className="flex flex-row justify-between m-4">
           <div className="">
             <Link to="/">
               <img
@@ -21,19 +29,26 @@ const Navbar = () => {
             </Link>
           </div>
           <div className="flex">
-            <Link to="/profile">
-              <img
-                src="/src/images/avatar.png"
-                alt="profile image"
-                className="w-12 h-12"
+            <div className="navbar-med flex align-middle">
+              <MenuLinks />
+            </div>
+            <div className="px-2">
+              <Link to="/profile">
+                <img
+                  src="/src/images/avatar.png"
+                  alt="profile image"
+                  className="w-12 h-12"
+                />
+              </Link>
+            </div>
+            <div className="navbar-hamburger">
+              <Hamburger
+                toggled={isOpen}
+                toggle={setOpen}
+                color="#087E8B"
+                label="Show menu"
               />
-            </Link>
-            <Hamburger
-              toggled={isOpen}
-              toggle={setOpen}
-              color="#087E8B"
-              className="z-0"
-            />
+            </div>
             <Menu open={!isOpen} setOpen={setOpen} className="z-10" />
           </div>
         </div>
