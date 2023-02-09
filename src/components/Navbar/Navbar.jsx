@@ -19,13 +19,14 @@ const Navbar = () => {
     <>
       <nav className="navbar w-screen">
         <div className="flex flex-row justify-between m-4">
-          <div className="">
-            <Link to="/">
+          <div>
+            <Link to="/" className="flex flex-row">
               <img
-                src="/src/images/cart.png"
-                alt="cart image with words find it"
+                src="/src/assets/img/icons8-fruits-flaticons.png"
+                alt="Company logo of an apple and orange"
                 className="w-12 h-12"
               />
+              <h2 className="font-bold text-4xl text-orangeRed">A2O</h2>
             </Link>
           </div>
           <div className="flex">
@@ -35,7 +36,7 @@ const Navbar = () => {
             <div className="px-2">
               <Link to="/profile">
                 <img
-                  src="/src/images/avatar.png"
+                  src="/src/assets/img/avatar.png"
                   alt="profile image"
                   className="w-12 h-12"
                 />

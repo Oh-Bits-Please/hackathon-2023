@@ -41,7 +41,7 @@ const MapBox = ({ product }) => {
                 setShowPopup(true);
               }}
             >
-              <img src="/src/images/map-marker.png" width={50} height={50} />
+              <img src="/src/assets/img/map-marker.png" width={50} height={50} />
             </button>
           </Marker>
         </div>

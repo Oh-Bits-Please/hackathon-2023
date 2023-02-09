@@ -7,6 +7,8 @@ module.exports = {
             regular: "400",
             semibold: "500",
             bold: "600",
+            extrabold: "700",
+            black: "800"
         },
         colors: {
             darkBlue: "#0B3954",
