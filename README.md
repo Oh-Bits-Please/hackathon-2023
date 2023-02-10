@@ -1,8 +1,10 @@
 # <img src="/src/assets/img/icons8-fruits-flaticons.png" width='50px'> Apples to Oranges <img src="/src/assets/img/icons8-fruits-flaticons.png" width='50px'>
 
-## Created for Developer Week 2023
+## Created for DeveloperWeek 2023
 
----
+Our team joined the DeveloperWeek 2023 [Hackathon](https://developerweek-2023-hackathon.devpost.com/), the largest challenge-driven hackathon, co-located with DeveloperWeek 2023. We are competing for the DeveloperWeek 2023 Overall Winner title, which will grant winners a $12,500 USD value prize.
+
+Judging will be based on: 1) PROGRESS: How much progress you make on your submission; 2) CONCEPT: Does your submission solve a real problem?; and 3) FEASIBILITY: Could your submission grow/evolve to become a startup or be a profitable business.
 
 # Project Overview
 
@@ -43,7 +45,21 @@ Signup and Login Pages:
 
 **Languages/Frameworks:** React, React Router, Vite, Firebase, Tailwind, MapBox
 
-# <a name="about"></a>Learn More About the Developers
+## Installation
+
+Use the package manager, npm, to install dependencies.
+
+```bash
+npm install
+```
+
+## Figma Design and Color Theme
+
+<img src="src/assets/img/figma.png">
+
+We decided to go with a simple design with lots of white background. The color theme is centered around the color red which is a popular color in the food industry.
+
+# Learn More About the Developers
 
 Kailey Kotynski
 
@@ -53,4 +69,12 @@ Kailey Kotynski
 - **Portfolio:** https://kaileykotynski.netlify.app
 
 Vanessa Vun
+
+- **GitHub:** https://github.com/vanessavun
+- **LinkedIn:** https://www.linkedin.com/in/vanessavun/
+- **Portfolio:** https://vanessavun.tech/
+
 Axi
+- Github:
+- LinkedIn:
+- Portfolio:
