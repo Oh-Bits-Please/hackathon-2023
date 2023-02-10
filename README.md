@@ -42,10 +42,13 @@ Signup and Login Pages:
 <img src="src/assets/README/login.png">
 
 Mobile Views:
-<img src="src/assets/README/mobile-home.png">
-<img src="src/assets/README/mobile-menu.png">
-<img src="src/assets/README/mobile-products.png">
-<img src="src/assets/README/mobile-map.png">
+<img src="src/assets/README/mobile-home.png" height="300" width="auto">
+
+<img src="src/assets/README/mobile-menu.png" height="300" width="auto">
+
+<img src="src/assets/README/mobile-products.png" height="300" width="auto">
+
+<img src="src/assets/README/mobile-map.png" height="300" width="auto">
 
 ## Technologies
 
