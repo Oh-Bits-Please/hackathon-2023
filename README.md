@@ -43,14 +43,8 @@ Signup and Login Pages:
 
 Mobile Views:
 
-<table>
-<tr>
-<img src="src/assets/README/mobile-home.png" height="350" width="auto">
-<img src="src/assets/README/mobile-menu.png" height="350" width="auto">
-<img src="src/assets/README/mobile-products.png" height="350" width="auto">
-<img src="src/assets/README/mobile-map.png" height="350" width="auto">
-</tr>
-</table>
+<img src="src/assets/README/mobile-view.png">
+
 ## Technologies
 
 **Languages/Frameworks:** React, React Router, Vite, Firebase, Tailwind, MapBox
