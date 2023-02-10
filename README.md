@@ -25,21 +25,27 @@ It is the mission of this application to help users compare prices for the same 
 
 Home Page:
 
-<img src="src/assets/img/home.png">
-<img src="src/assets/img/home-2.png">
+<img src="src/assets/README/home.png">
+<img src="src/assets/README/home-2.png">
 
 Product Search Page:
 
-<img src="src/assets/img/searchpage.png">
+<img src="src/assets/README/searchpage.png">
 
 Product Details Page:
 
-<img src="src/assets/img/details.png">
+<img src="src/assets/README/details.png">
 
 Signup and Login Pages:
 
-<img src="src/assets/img/signup.png">
-<img src="src/assets/img/login.png">
+<img src="src/assets/README/signup.png">
+<img src="src/assets/README/login.png">
+
+Mobile Views:
+<img src="src/assets/README/mobile-home.png">
+<img src="src/assets/README/mobile-menu.png">
+<img src="src/assets/README/mobile-products.png">
+<img src="src/assets/README/mobile-map.png">
 
 ## Technologies
 
@@ -55,7 +61,7 @@ npm install
 
 ## Figma Design and Color Theme
 
-<img src="src/assets/img/figma.png">
+<img src="src/assets/README/figma.png">
 
 We decided to go with a simple design with lots of white background. The color theme is centered around the color red which is a popular color in the food industry.
 
