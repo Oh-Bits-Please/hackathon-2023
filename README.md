@@ -78,6 +78,6 @@ Vanessa Vun
 - **LinkedIn:** https://www.linkedin.com/in/vanessavun/
 - **Portfolio:** https://vanessavun.tech/
 
-Axi
+Axel Hurtado
 - **GitHub:** https://github.com/axelandreina
 - **LinkedIn:** https://www.linkedin.com/in/axelandreinahurtado/
