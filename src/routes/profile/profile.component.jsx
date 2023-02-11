@@ -30,13 +30,15 @@ function Profile() {
   ];
 
   return (
-    <div className='md:flex md:gap-8 md:columns-2 '>
-      <div>
-        <h1 className="w-96 text-2xl font-bold p-4 md:text-4xl md:w-3/6 lg:w-2/5">Profile</h1>
-        <div className='bg-orangeRed m-4 rounded-md text-sm'>
-          <div className='p-2 flex'>
-            <img src={AvatarPicture} className='w-40' alt="" />
-            <div className='flex flex-wrap text-white'>
+    <div className='lg:grid lg:grid-cols-3 lg:gap-4'>
+      <div className=' lg:col-span-1'>
+        <h1 className="w-96 text-2xl font-bold p-4 md:text-4xl md:w-3/6 lg:w-fukk">Profile</h1>
+        <div className='bg-orangeRed m-4 rounded-md text-sm flex justify-center md:flex-wrap'>
+          <div className='p-2 md:flex md:items-center md: '>
+            <div className='flex justify-center'>
+              <img src={AvatarPicture} className='w-40' alt="" />
+            </div>
+            <div className='text-white flex flex-col'>
               <h2 className='flex items-center'><HiUser className='mr-1' />Name: Jane Doe</h2>
               <p className='flex items-center'><HiEnvelope className='mr-1' />Email: jane_doe@gmail.com</p>
               <p className='flex items-center'><HiMapPin className='mr-1' />Address: 1234 Dortha St</p>
@@ -46,9 +48,9 @@ function Profile() {
           </div>
         </div>
       </div>
-      <div>
-        <div className='flex items-center w-100'>
-          <h1 className=" text-2xl font-bold ml-4 py-4 md:text-4xl md:w-3/6 lg:w-2/5">Favorites </h1>
+      <div className='lg:col-span-2'>
+        <div className='flex items-center w-100  '>
+          <h1 className=" text-2xl font-bold ml-4 py-4 md:text-4xl">Favorites </h1>
           <HiHeart className='pl-2 text-red text-3xl' />
         </div>
         <ProductList />
