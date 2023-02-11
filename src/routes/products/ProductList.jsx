@@ -8,18 +8,21 @@ import { Link } from "react-router-dom";
 
 const products = [
   {
+    id: 1,
     name: "Ketchup",
     price: "10 USD",
     discount: "5%",
     img: KetchupImg,
   },
   {
+    id: 2,
     name: "Pasta",
     price: "14 USD",
     discount: "8%",
     img: PastaImg,
   },
   {
+    id: 3,
     name: "Rice",
     price: "15 USD",
     discount: "15%",
@@ -170,19 +173,19 @@ const ProductList = () => {
 
       {products.map((product) => {
         return (
-          <Link to={`/product-details/${product.id}`}>
-            <Product
-              id={product.id}
-              name={product.name}
-              price={product.price}
-              discount={product.discount}
-              img={product.img}
-              location={product.location}
-              lat={product.lat}
-              lng={product.lng}
-              zip={product.zip}
-            />
-          </Link>
+
+          <Product
+            id={product.id}
+            name={product.name}
+            price={product.price}
+            discount={product.discount}
+            img={product.img}
+            location={product.location}
+            lat={product.lat}
+            lng={product.lng}
+            zip={product.zip}
+          // url={`/product-details/${product.id}`}
+          />
         );
       })
       }
