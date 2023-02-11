@@ -79,6 +79,5 @@ Vanessa Vun
 - **Portfolio:** https://vanessavun.tech/
 
 Axi
-- Github:
-- LinkedIn:
-- Portfolio:
+- **GitHub:** https://github.com/axelandreina
+- **LinkedIn:** https://www.linkedin.com/in/axelandreinahurtado/
