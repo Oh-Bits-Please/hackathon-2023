@@ -143,7 +143,7 @@ const ProductList = () => {
           <span className="sr-only">Search</span>
         </button>
       </form>
-      {search ? (
+      {/* {search ? (
         ketchup.map((product) => {
           return (
             <Link to={`/product-details/${product.id}`}>
@@ -165,7 +165,28 @@ const ProductList = () => {
         <div className="p-2 text-left font-bold">
           No products found. Search above.
         </div>
-      )}
+      )} */}
+
+
+      {products.map((product) => {
+        return (
+          <Link to={`/product-details/${product.id}`}>
+            <Product
+              id={product.id}
+              name={product.name}
+              price={product.price}
+              discount={product.discount}
+              img={product.img}
+              location={product.location}
+              lat={product.lat}
+              lng={product.lng}
+              zip={product.zip}
+            />
+          </Link>
+        );
+      })
+      }
+
       {/* <div>
         <MapBox />
       </div> */}
