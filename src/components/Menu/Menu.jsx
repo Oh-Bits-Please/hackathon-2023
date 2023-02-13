@@ -1,6 +1,6 @@
 import React from "react";
 import Hamburger from "hamburger-react";
-import MenuLinks from "../menulinks/MenuLinks.component";
+import MenuLinks from "../menulinks/menuLinks";
 
 function Menu({ open, setOpen }) {
   return (
