@@ -3,7 +3,7 @@ import { Outlet } from "react-router-dom";
 import { useEffect, useRef, useState } from "react";
 import Hamburger from "hamburger-react";
 import Menu from "../Menu/Menu";
-import MenuLinks from "../MenuLinks/MenuLinks.component";
+import MenuLinks from "../menulinks/menuLinks";
 
 const Navbar = () => {
   const [isOpen, setOpen] = useState(false);
