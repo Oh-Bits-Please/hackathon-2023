@@ -4,6 +4,8 @@ import { useEffect, useRef, useState } from "react";
 import Hamburger from "hamburger-react";
 import Menu from "../Menu/Menu";
 import MenuLinks from "../menulinks/menuLinks";
+import AppleIcon from "/src/assets/img/icons8-fruits-flaticons.png";
+import ProfileImg from "/src/assets/img/avatar.png";
 
 const Navbar = () => {
   const [isOpen, setOpen] = useState(false);
@@ -22,7 +24,7 @@ const Navbar = () => {
           <div>
             <Link to="/" className="flex flex-row">
               <img
-                src="/src/assets/img/icons8-fruits-flaticons.png"
+                src={AppleIcon}
                 alt="Company logo of an apple and orange"
                 className="w-12 h-12"
               />
@@ -36,7 +38,7 @@ const Navbar = () => {
             <div className="px-2">
               <Link to="/profile">
                 <img
-                  src="/src/assets/img/avatar.png"
+                  src={ProfileImg}
                   alt="profile image"
                   className="w-12 h-12"
                 />

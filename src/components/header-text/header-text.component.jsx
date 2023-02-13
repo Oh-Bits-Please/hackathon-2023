@@ -1,4 +1,5 @@
 import React from "react";
+import HomeImg from "/src/assets/img/shopper.png";
 
 function HeaderText() {
   return (
@@ -10,7 +11,7 @@ function HeaderText() {
         </h1>
       </div>
       <div className="flex justify-center">
-        <img src="/src/assets/img/shopper.png" className="w-50 h-50" />
+        <img src={HomeImg} className="w-50 h-50" />
       </div>
     </>
   );
