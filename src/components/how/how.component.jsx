@@ -8,7 +8,7 @@ function HowTo() {
         <h2 className="text-2xl font-bold md:text-3xl m-auto text-center">
           How does Apples to Oranges work?
         </h2>
-        <img src={shopper} />
+        <img src={shopper} className="max-w-max m-auto" />
         <p className="p-4 md:text-lg m-auto text-center">
           So you're browsing in the grocery store and you're wondering if this
           item's price is better elsewhere.
