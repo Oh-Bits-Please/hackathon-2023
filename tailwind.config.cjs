@@ -10,7 +10,9 @@ module.exports = {
             extrabold: "700",
             black: "800"
         },
-        colors: {
+        
+    extend: {
+      colors: {
             darkBlue: "#0B3954",
             green: "#087E8B",
             lightBlue:"#BFD7EA",
@@ -22,7 +24,7 @@ module.exports = {
             black:"#000000",
             red: "#FF0000"
         },
-    extend: {},
+    },
   },
   plugins: [],
 };
