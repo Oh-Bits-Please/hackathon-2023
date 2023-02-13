@@ -51,10 +51,10 @@ function ProductDetails() {
 
   return (
     <div>
-      <h1 className="w-96 text-2xl font-bold text-center p-4">
+      <h1 className="w-96 text-2xl font-bold p-4 mx-8">
         Product Details
       </h1>
-      <h2 className="w-96 text-2xl font-bold text-center p-4">
+      <h2 className="w-96 text-2xl font-bold p-4 mx-8">
         {location
           ? `Your location: ${
               location?.results[0].locations[0].adminArea5
