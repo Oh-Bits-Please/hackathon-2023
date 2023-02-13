@@ -27,7 +27,6 @@ function Profile() {
       zip: "12205",
     },
     {
-      img: PastaImg,
       id: 3,
       name: "Pasta",
       price: "9 USD",

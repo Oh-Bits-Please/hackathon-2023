@@ -1,4 +1,3 @@
-import MapBox from "../../components/map/Map";
 import { Link } from "react-router-dom";
 import shopper from '../../assets/img/shopping-blush-design.png';
 import Footer from "../../components/footer/footer.component";
