@@ -1,6 +1,7 @@
 import * as React from "react";
 import Map, { Marker, GeolocateControl, Popup } from "react-map-gl";
 import { useState } from "react";
+import MarkerImg from "/src/assets/img/map-marker.png";
 // import * as storeData from "/src/data/wholefoods.json";
 
 const MapBox = ({ product }) => {
@@ -41,11 +42,7 @@ const MapBox = ({ product }) => {
                 setShowPopup(true);
               }}
             >
-              <img
-                src="/src/assets/img/map-marker.png"
-                width={50}
-                height={50}
-              />
+              <img src={MarkerImg} width={50} height={50} />
             </button>
           </Marker>
         </div>
