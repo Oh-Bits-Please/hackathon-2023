@@ -2,7 +2,7 @@ import React from "react";
 import MapBox from "../../components/Map/Map";
 import { useParams } from "react-router-dom";
 import { useState, useEffect } from "react";
-import { ketchup } from "../products/ProductList";
+import { ketchup, rice, pasta } from "../products/ProductList";
 
 function ProductDetails() {
   const [location, setCurrentLocation] = useState(null);
@@ -36,7 +36,18 @@ function ProductDetails() {
     getUserCoords();
   }, []);
 
-  const product = ketchup.find((product) => product.id === Number(id));
+  const getProduct = (id) => {
+    if (id >= 1 && id <= 5) {
+      return pasta.find((product) => product.id === Number(id));
+    } else if (id > 5 && id <= 10) {
+      return rice.find((product) => product.id === Number(id));
+    } else {
+      return ketchup.find((product) => product.id === Number(id));
+    }
+  };
+
+  const product = getProduct(id);
+  // const product = ketchup.find((product) => product.id === Number(id));
 
   return (
     <div>
