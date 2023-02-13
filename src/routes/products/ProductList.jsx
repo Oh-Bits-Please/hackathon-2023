@@ -6,30 +6,6 @@ import PastaImg from "../../../src/assets/img/pasta.png";
 import MapBox from "../../components/Map/Map";
 import { Link } from "react-router-dom";
 
-// const products = [
-//   {
-//     id: 1,
-//     name: "Ketchup",
-//     price: "10 USD",
-//     discount: "5%",
-//     img: KetchupImg,
-//   },
-//   {
-//     id: 2,
-//     name: "Pasta",
-//     price: "14 USD",
-//     discount: "8%",
-//     img: PastaImg,
-//   },
-//   {
-//     id: 3,
-//     name: "Rice",
-//     price: "15 USD",
-//     discount: "15%",
-//     img: RiceImg,
-//   },
-// ];
-
 export const pasta = [
   {
     id: 1,
