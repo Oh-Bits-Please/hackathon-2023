@@ -186,6 +186,7 @@ const ProductList = () => {
   const [productList, setProductList] = useState("");
 
   const updateProductList = (product) => {
+    product = product.toLowerCase();
     if (product == "ketchup") {
       setProductList(ketchup);
     } else if (product == "rice") {
@@ -281,7 +282,8 @@ const ProductList = () => {
         })
       ) : (
         <div className="p-2 text-left font-bold">
-          No products found. Search above.
+          No products found. Please search above. Demo products are ketchup,
+          rice, and pasta.
         </div>
       )}
 
