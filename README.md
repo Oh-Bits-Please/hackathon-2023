@@ -41,6 +41,9 @@ Signup and Login Pages:
 <img src="src/assets/README/signup.png">
 <img src="src/assets/README/login.png">
 
+Profile Page:
+<img src="src/assets/README/profile.png">
+
 Mobile Views:
 
 <img src="src/assets/README/mobile-view.png">
@@ -79,5 +82,6 @@ Vanessa Vun
 - **Portfolio:** https://vanessavun.tech/
 
 Axel Hurtado
+
 - **GitHub:** https://github.com/axelandreina
 - **LinkedIn:** https://www.linkedin.com/in/axelandreinahurtado/
