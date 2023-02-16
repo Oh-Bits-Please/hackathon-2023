@@ -25,6 +25,7 @@ function Profile() {
       lat: 42.7089555,
       lng: -73.81888489,
       zip: "12205",
+      fave: true
     },
     {
       id: 3,
@@ -36,6 +37,7 @@ function Profile() {
       lat: 30.220346,
       lng: -97.841947,
       zip: "78749",
+      fave: true
     },
     {
       id: 6,
@@ -47,6 +49,7 @@ function Profile() {
       lat: 42.7089555,
       lng: -73.81888489,
       zip: "12205",
+      fave: true
     },
   ];
 
@@ -106,6 +109,7 @@ function Profile() {
                 lat={product.lat}
                 lng={product.lng}
                 zip={product.zip}
+                fave={product.fave}
               />
             );
           })

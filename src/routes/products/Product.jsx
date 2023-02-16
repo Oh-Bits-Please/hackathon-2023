@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { HiHeart, HiOutlineHeart } from "react-icons/hi2";
 import { Link } from "react-router-dom";
 
-const Product = ({ id, name, price, discount, img, location, lat, lng }) => {
+const Product = ({ id, name, price, discount, img, location, lat, lng, fave }) => {
   const [favorite, setFavorite] = useState(false);
 
   const handleFavorite = () => {
@@ -27,7 +27,7 @@ const Product = ({ id, name, price, discount, img, location, lat, lng }) => {
         <div className="bg-lightGreen rounded-md w-14 flex justify-center items-center h-5 ">
           <p className="text-sm text-white font-semibold">{`${discount} off`}</p>
         </div>
-          {favorite ? (
+          {favorite || fave ? (
             <HiHeart
               onClick={handleFavorite}
               className="text-red ml-2 text-[1.4rem] cursor-pointer"
