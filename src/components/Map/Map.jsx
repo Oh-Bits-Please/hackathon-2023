@@ -2,7 +2,6 @@ import * as React from "react";
 import Map, { Marker, GeolocateControl, Popup } from "react-map-gl";
 import { useState } from "react";
 import MarkerImg from "/src/assets/img/map-marker.png";
-// import * as storeData from "/src/data/wholefoods.json";
 
 const MapBox = ({ product }) => {
   console.log(product.location);

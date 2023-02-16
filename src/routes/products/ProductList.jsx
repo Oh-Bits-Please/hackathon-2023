@@ -265,7 +265,6 @@ const ProductList = () => {
       {productList ? (
         productList.map((product) => {
           return (
-            // <Link to={`/product-details/${product.id}`}>
             <Product
               id={product.id}
               name={product.name}
@@ -277,7 +276,6 @@ const ProductList = () => {
               lng={product.lng}
               zip={product.zip}
             />
-            // </Link>
           );
         })
       ) : (
@@ -286,27 +284,6 @@ const ProductList = () => {
           rice, and pasta.
         </div>
       )}
-
-      {/* {products.map((product) => {
-        return (
-          <Product
-            id={product.id}
-            name={product.name}
-            price={product.price}
-            discount={product.discount}
-            img={product.img}
-            location={product.location}
-            lat={product.lat}
-            lng={product.lng}
-            zip={product.zip}
-            // url={`/product-details/${product.id}`}
-          />
-        );
-      })} */}
-
-      {/* <div>
-        <MapBox />
-      </div> */}
     </div>
   );
 };

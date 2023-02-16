@@ -47,7 +47,6 @@ function ProductDetails() {
   };
 
   const product = getProduct(id);
-  // const product = ketchup.find((product) => product.id === Number(id));
 
   return (
     <div>
@@ -71,7 +70,6 @@ function ProductDetails() {
           </div>
           <p>{product.price}</p>
           <p>{product.location}</p>
-          {/* <p>Location: {location ? location : "Not found"}</p> */}
         </div>
       </div>
       <div className="flex justify-center p-4">
